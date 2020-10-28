@@ -75,14 +75,23 @@ class _SliderLayoutViewState extends State<SliderLayoutView> {
                         },
                         child: Padding(
                           padding: EdgeInsets.only(right: 15.0, bottom: 15.0),
-                          child: Text(
-                            _currentPage + 1 == slides.length
-                                ? Constants.FINISH
-                                : Constants.NEXT,
-                            style: TextStyle(
-                              fontFamily: Constants.OPEN_SANS,
-                              fontWeight: FontWeight.w600,
-                              fontSize: 14.0,
+                          child: Container(
+                            decoration: BoxDecoration(
+                              border: Border.all(
+                                width: 2,
+                                color: Color(0xff6AC9C7),
+                              ),
+                              borderRadius: BorderRadius.circular(20),
+                            ),
+                            child: Text(
+                              _currentPage + 1 == slides.length
+                                  ? Constants.FINISH
+                                  : Constants.NEXT,
+                              style: TextStyle(
+                                  fontFamily: Constants.OPEN_SANS,
+                                  fontWeight: FontWeight.w600,
+                                  fontSize: 14.0,
+                                  color: Color(0xff6AC9C7)),
                             ),
                           ),
                         ),
@@ -101,6 +110,7 @@ class _SliderLayoutViewState extends State<SliderLayoutView> {
                               fontFamily: Constants.OPEN_SANS,
                               fontWeight: FontWeight.w600,
                               fontSize: 14.0,
+                              color: Color(0xff676464),
                             ),
                           ),
                         ),

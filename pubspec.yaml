@@ -4,7 +4,7 @@ version: 0.0.4
 homepage: https://github.com/ishaquehassan/FlutterOnBoardingUIPackage.git
 
 environment:
-  sdk: ">=2.5.2 <3.0.0"
+  sdk: '>=2.5.2 <3.0.0'
 
 dependencies:
   flutter:
@@ -22,3 +22,9 @@ flutter:
   uses-material-design: true
   # To add assets to your package, add an assets section, like this:
 
+  fonts:
+    - family: whatever
+      fonts:
+        - asset: assets/fonts/whatever.ttf
+        - asset: assets/fonts/whatever_bold.ttf
+          weight: 700
