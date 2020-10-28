@@ -83,15 +83,18 @@ class _SliderLayoutViewState extends State<SliderLayoutView> {
                               ),
                               borderRadius: BorderRadius.circular(20),
                             ),
-                            child: Text(
-                              _currentPage + 1 == slides.length
-                                  ? Constants.FINISH
-                                  : Constants.NEXT,
-                              style: TextStyle(
-                                  fontFamily: Constants.OPEN_SANS,
-                                  fontWeight: FontWeight.w600,
-                                  fontSize: 14.0,
-                                  color: Color(0xff6AC9C7)),
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Text(
+                                _currentPage + 1 == slides.length
+                                    ? Constants.FINISH
+                                    : Constants.NEXT,
+                                style: TextStyle(
+                                    fontFamily: Constants.OPEN_SANS,
+                                    fontWeight: FontWeight.w600,
+                                    fontSize: 14.0,
+                                    color: Color(0xff6AC9C7)),
+                              ),
                             ),
                           ),
                         ),
