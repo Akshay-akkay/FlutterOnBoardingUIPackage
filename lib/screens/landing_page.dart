@@ -16,8 +16,8 @@ class _LandingPageState extends State<LandingPage> {
       body: Container(
         decoration: BoxDecoration(
             gradient: LinearGradient(
-                begin: Alignment.centerLeft,
-                end: Alignment.centerRight,
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
                 colors: [Color(0xffD2EEEF), Colors.white, Colors.white])),
         child: onBordingBody(),
       ),
