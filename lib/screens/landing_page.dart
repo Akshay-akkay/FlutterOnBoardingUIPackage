@@ -18,7 +18,7 @@ class _LandingPageState extends State<LandingPage> {
             gradient: LinearGradient(
                 begin: Alignment.centerLeft,
                 end: Alignment.centerRight,
-                colors: [Colors.purple, Colors.blue])),
+                colors: [Color(0xffD2EEEF), Colors.white, Colors.white])),
         child: onBordingBody(),
       ),
     );
