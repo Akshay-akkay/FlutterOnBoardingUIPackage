@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import '../ui_view/slider_layout_view.dart';
 
 class LandingPage extends StatefulWidget {
-
   @override
   State<StatefulWidget> createState() => _LandingPageState();
 }
@@ -14,7 +13,14 @@ class _LandingPageState extends State<LandingPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: onBordingBody(),
+      body: Container(
+        decoration: BoxDecoration(
+            gradient: LinearGradient(
+                begin: Alignment.centerLeft,
+                end: Alignment.centerRight,
+                colors: [Colors.purple, Colors.blue])),
+        child: onBordingBody(),
+      ),
     );
   }
 
