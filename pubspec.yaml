@@ -21,14 +21,3 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   # To add assets to your package, add an assets section, like this:
-
-  assets:
-    - assets/
-    - assets/fonts
-
-  fonts:
-    - family: whatever
-      fonts:
-        - asset: assets/fonts/whatever.ttf
-        - asset: assets/fonts/whatever_bold.ttf
-          weight: 700

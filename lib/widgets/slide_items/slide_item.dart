@@ -28,7 +28,7 @@ class SlideItem extends StatelessWidget {
         Text(
           slides[index].sliderHeading,
           style: TextStyle(
-            fontFamily: 'whatever',
+            fontFamily: Constants.OPEN_SANS,
             fontWeight: FontWeight.w700,
             fontSize: 20.5,
           ),
@@ -42,7 +42,7 @@ class SlideItem extends StatelessWidget {
             child: Text(
               slides[index].sliderSubHeading,
               style: TextStyle(
-                fontFamily: 'whatever',
+                fontFamily: Constants.OPEN_SANS,
                 fontWeight: FontWeight.w500,
                 letterSpacing: 1.5,
                 fontSize: 12.5,
