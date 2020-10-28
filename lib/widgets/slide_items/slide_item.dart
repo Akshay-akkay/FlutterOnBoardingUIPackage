@@ -16,12 +16,12 @@ class SlideItem extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         Container(
-          height: MediaQuery.of(context).size.width * 0.6,
-          width: MediaQuery.of(context).size.height * 0.4,
+          height: MediaQuery.of(context).size.width * 0.8,
+          width: MediaQuery.of(context).size.height * 0.6,
           decoration: BoxDecoration(
             image: DecorationImage(
                 image: AssetImage(slides[index].sliderImageUrl),
-                fit: BoxFit.fitWidth),
+                fit: BoxFit.contain),
           ),
         ),
         SizedBox(
@@ -33,6 +33,7 @@ class SlideItem extends StatelessWidget {
             fontFamily: Constants.OPEN_SANS,
             fontWeight: FontWeight.w700,
             fontSize: 20.5,
+            color: Color(0xff3BA7A9),
           ),
         ),
         SizedBox(
@@ -48,6 +49,7 @@ class SlideItem extends StatelessWidget {
                 fontWeight: FontWeight.w500,
                 letterSpacing: 1.5,
                 fontSize: 12.5,
+                color: Color(0xff676464),
               ),
               textAlign: TextAlign.center,
             ),
