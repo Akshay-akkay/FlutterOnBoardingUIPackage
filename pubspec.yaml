@@ -24,7 +24,7 @@ flutter:
 
   assets:
     - assets/
-    - assets/fonts
+    - assets/fonts/
 
   fonts:
     - family: whatever
