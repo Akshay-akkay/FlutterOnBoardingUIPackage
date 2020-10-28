@@ -27,32 +27,14 @@ class SlideItem extends StatelessWidget {
         SizedBox(
           height: 60.0,
         ),
-        Text(
-          slides[index].sliderHeading,
-          style: TextStyle(
-            fontFamily: Constants.OPEN_SANS,
-            fontWeight: FontWeight.w700,
-            fontSize: 20.5,
-            color: Color(0xff3BA7A9),
-          ),
-        ),
+        slides[index].sliderHeading,
         SizedBox(
           height: 15.0,
         ),
         Center(
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 40.0),
-            child: Text(
-              slides[index].sliderSubHeading,
-              style: TextStyle(
-                fontFamily: Constants.OPEN_SANS,
-                fontWeight: FontWeight.w500,
-                letterSpacing: 1.5,
-                fontSize: 12.5,
-                color: Color(0xff676464),
-              ),
-              textAlign: TextAlign.center,
-            ),
+            child: slides[index].sliderSubHeading,
           ),
         )
       ],
