@@ -19,8 +19,10 @@ class SlideItem extends StatelessWidget {
           height: MediaQuery.of(context).size.width * 0.6,
           width: MediaQuery.of(context).size.height * 0.4,
           decoration: BoxDecoration(
-              image: DecorationImage(
-                  image: AssetImage(slides[index].sliderImageUrl))),
+            image: DecorationImage(
+                image: AssetImage(slides[index].sliderImageUrl),
+                fit: BoxFit.fitWidth),
+          ),
         ),
         SizedBox(
           height: 60.0,
