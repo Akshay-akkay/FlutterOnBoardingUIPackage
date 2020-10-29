@@ -20,14 +20,14 @@ class _SliderLayoutViewState extends State<SliderLayoutView> {
   @override
   void initState() {
     super.initState();
-    Timer.periodic(Duration(seconds: 5), (Timer timer) {
-      if (_currentPage < 3) {
-        _currentPage++;
-        setState(() {});
-      } else {
-        _currentPage = 0;
-      }
-    });
+    // Timer.periodic(Duration(seconds: 5), (Timer timer) {
+    //   if (_currentPage < 3) {
+    //     _currentPage++;
+    //     setState(() {});
+    //   } else {
+    //     _currentPage = 0;
+    //   }
+    // });
   }
 
   @override
