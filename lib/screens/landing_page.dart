@@ -15,10 +15,16 @@ class _LandingPageState extends State<LandingPage> {
       backgroundColor: Colors.white,
       body: Container(
         decoration: BoxDecoration(
-            gradient: LinearGradient(
-                begin: Alignment.topLeft,
-                end: Alignment.bottomRight,
-                colors: [Color(0xffFCC5AE), Color(0xffFEEBD0)])),
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              Color(0xffFCC5AE),
+              Color(0xffFEEBD0),
+              Color(0xffFEEBD0),
+            ],
+          ),
+        ),
         child: onBordingBody(),
       ),
     );
