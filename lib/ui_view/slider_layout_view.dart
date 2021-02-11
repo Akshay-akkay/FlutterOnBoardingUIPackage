@@ -80,7 +80,7 @@ class _SliderLayoutViewState extends State<SliderLayoutView> {
                             decoration: BoxDecoration(
                               border: Border.all(
                                 width: 2,
-                                color: Color(0xff6AC9C7),
+                                color: Color(0xFFFF2A71),
                               ),
                               borderRadius: BorderRadius.circular(20),
                             ),
@@ -94,7 +94,7 @@ class _SliderLayoutViewState extends State<SliderLayoutView> {
                                     fontFamily: Constants.OPEN_SANS,
                                     fontWeight: FontWeight.w600,
                                     fontSize: 14.0,
-                                    color: Color(0xff6AC9C7)),
+                                    color: Color(0xFFFF2A71)),
                               ),
                             ),
                           ),
